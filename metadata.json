@@ -1,0 +1,6 @@
+{
+  "name": "Games Interactive",
+  "description": "Gaming studio website featuring portfolio, founder profile, and ethical game design ethos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
