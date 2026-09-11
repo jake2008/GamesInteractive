@@ -26,3 +26,11 @@ export interface EthosPoint {
   iconName: string;
   color: string;
 }
+
+export interface Service {
+  id: string;
+  title: string;
+  description: string;
+  iconName: string;
+  color: string;
+}

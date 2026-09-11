@@ -9,9 +9,9 @@ export function FounderProfile() {
 
           <div className="lg:col-span-4">
             <div className="sticky top-32">
-              <div className="w-32 h-32 rounded-3xl bg-brand-purple-light mb-6 overflow-hidden">
+              <div className="w-32 h-32 rounded-3xl mb-6 overflow-hidden">
                 <img
-                  src="/assets/img/jake.jpg?auto=format&fviteit=crop&q=80&w=400"
+                  src="/assets/img/jake.jpg"
                   alt="Jake O'Connor"
                   className="w-full h-full object-cover"
                 />

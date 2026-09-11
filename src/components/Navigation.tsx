@@ -22,7 +22,7 @@ export function Navigation() {
         
         <nav className="hidden md:flex items-center gap-8 font-medium text-sm text-gray-600">
           <a href="/#ethos" className="hover:text-brand-purple transition-colors">Ethos</a>
-          <a href="/#portfolio" className="hover:text-brand-purple transition-colors">Games</a>
+          <a href="/#services" className="hover:text-brand-purple transition-colors">Services</a>
           <a href="/#founder" className="hover:text-brand-purple transition-colors">Founder</a>
           <a 
             href="/#contact" 

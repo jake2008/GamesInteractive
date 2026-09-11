@@ -70,12 +70,12 @@ export function Hero() {
             className="flex flex-wrap gap-4"
           >
             <motion.a 
-              href="/#portfolio" 
+              href="/#services"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-colors shadow-lg shadow-gray-900/20"
             >
-              Explore Our Games
+              Explore Our Services
             </motion.a>
             <motion.a 
               href="/#contact" 

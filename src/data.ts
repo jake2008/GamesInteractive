@@ -1,4 +1,4 @@
-import { EthosPoint, Experience, Project } from "./types";
+import { EthosPoint, Experience, Project, Service } from "./types";
 
 export const ETHOS_POINTS: EthosPoint[] = [
   {
@@ -21,6 +21,51 @@ export const ETHOS_POINTS: EthosPoint[] = [
     description: "Accessibility isn't an afterthought. We build games that everyone can enjoy, regardless of ability.",
     iconName: "HeartHandshake",
     color: "bg-brand-yellow/20 text-yellow-600",
+  },
+];
+
+export const SERVICES: Service[] = [
+  {
+    id: "s1",
+    title: "Full-Cycle Game Development",
+    description: "From first prototype to launch and live operations, we design, build and ship complete games for PC, mobile and web.",
+    iconName: "Gamepad2",
+    color: "bg-brand-purple/20 text-brand-purple",
+  },
+  {
+    id: "s2",
+    title: "Co-Development & Engineering",
+    description: "An extra pair of hands for your team: gameplay programming, engine and tools development, optimisation and porting.",
+    iconName: "Code2",
+    color: "bg-brand-mint/20 text-brand-mint",
+  },
+  {
+    id: "s3",
+    title: "Web3 & Player Rewards",
+    description: "Sustainable, transparent reward systems that put fun first, backed by our experience paying out $150k to Siege Worlds players.",
+    iconName: "Coins",
+    color: "bg-brand-yellow/20 text-yellow-600",
+  },
+  {
+    id: "s4",
+    title: "Serious Games & VR",
+    description: "Research-led training, education and healthcare experiences, including award-winning VR training for doctors.",
+    iconName: "Glasses",
+    color: "bg-brand-mint/20 text-brand-mint",
+  },
+  {
+    id: "s5",
+    title: "Game Design Consultancy",
+    description: "Player-first design reviews covering ethical monetisation, accessibility and retention without dark patterns.",
+    iconName: "Lightbulb",
+    color: "bg-brand-yellow/20 text-yellow-600",
+  },
+  {
+    id: "s6",
+    title: "Funding & Pitch Support",
+    description: "We've helped partners raise over $2 million. We'll sharpen your pitch, prototype and grant applications to get you funded.",
+    iconName: "Rocket",
+    color: "bg-brand-purple/20 text-brand-purple",
   },
 ];
 
